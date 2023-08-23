@@ -1,5 +1,5 @@
 const apiKey = "3ddee68b6c124a35b14193029232008";
-const apiUrl = "http://api.weatherapi.com/v1/current.json?&aqi=no&q=";
+const apiUrl = "https://api.weatherapi.com/v1/current.json?&aqi=no&q=";
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
