@@ -18,6 +18,7 @@ var data = await response.json();
   document.querySelector(".temp").innerHTML = Math.round(data.current.temp_c) + "°C";
   document.querySelector(".humidity").innerHTML = data.current.humidity + " %";
   document.querySelector(".wind").innerHTML = data.current.wind_mph + " mph";
+  document.querySelector(".wc").innerHTML = data.current.condition.text;
 
 
   if(data.current.condition.text =="Clouds"){
